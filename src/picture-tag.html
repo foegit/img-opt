@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Image optimization</title>
+</head>
+<body>
+  <h1>Picture tag</h1>
+  <div class="app">
+    <picture>
+
+      <picture>
+        <source srcset="./images/raccoon_original_extra_large.png" media="(min-width: 1200px)">
+        <source srcset="./images/raccoon_original_large.png" media="(min-width: 992px)">
+        <source srcset="./images/raccoon_original_medium.png" media="(min-width: 768px)">
+        <source srcset="./images/raccoon_original_small.webp" media="(min-width: 0px)">
+
+        <img src="./images/raccoon_original.png" alt="MDN">
+      </picture>
+
+    </picture>
+  </div>
+  <a href="./lazy-load.html">Lazy Loading</a>
+</body>
+</html>

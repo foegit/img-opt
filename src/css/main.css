@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  padding: 10px;
+}
+h2 {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px 0;
+  border: 2px solid rgb(138, 138, 221);
+}
+
+.app {
+  display: flex;
+
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.image {
+  flex: 0 1 100%;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.caption {
+  color: rgb(38, 109, 73);
+  font-weight: bold;
+}
+
+.app img {
+  width: 100%;
+}
+
+
+/* lazy load */
+.raccoon-market {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.raccoon-market img {
+  width: 32vw;
+  height: 32vw;
+  padding: 20px;
+  display: block;
+  border: 2px dashed rgb(78, 197, 157);
+}
+
+/* Header */
+header {
+  background: #444;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Home page */
+.menu {
+  padding-left: 0;
+  list-style: none;
+}
+
+.menu-item a {
+  color: rgb(94, 94, 94);
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.menu-item a:hover {
+  color: #933;
+}
