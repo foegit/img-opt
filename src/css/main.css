@@ -93,3 +93,31 @@ header a:hover {
 .menu-item a:hover {
   color: #933;
 }
+
+/* Picture tag with sizes */
+.ad-app {
+  display: flex;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.description-content {
+  max-width: 500px;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+}
+
+.banner, .description {
+  flex: 1 0;
+}
+
+@media (max-width: 576px) {
+  .ad-app {
+    flex-direction: column;
+  }
+}

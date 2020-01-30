@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Image optimization</title>
+  <link rel="stylesheet" href="../main.css">
+</head>
+<body>
+  <header>
+    <div class="link">
+      <a href="/index.html">Back to home page</a>
+    </div>
+  </header>
+  <h1>Picture tag - Sizes</h1>
+  <div class="ad-app">
+    <div class="banner">
+      <img
+        srcset="../images/picture/raccoon_original_576.png 576w,
+          ../images/picture/raccoon_original_992.png 992w,
+          ../images/picture/raccoon_original_1200.png 1200w"
+        sizes="(max-width: 320px) 280px,
+          (max-width: 480px) 440px,
+          800px"
+        src="../images/picture/raccoon_original_1200.png" alt="Elva dressed as a fairy"
+      >
+    </div>
+
+    <div class="description">
+      <div class="description-content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse praesentium, sunt eos sequi cupiditate autem blanditiis. Ab eum temporibus sed! Quaerat suscipit amet exercitationem soluta saepe dolorum porro, maxime minima.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
